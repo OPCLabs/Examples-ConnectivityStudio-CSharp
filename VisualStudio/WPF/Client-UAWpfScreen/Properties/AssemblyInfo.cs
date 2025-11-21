@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("UAWpfScreen")]
-[assembly: AssemblyCopyright("© 2015-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2015-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

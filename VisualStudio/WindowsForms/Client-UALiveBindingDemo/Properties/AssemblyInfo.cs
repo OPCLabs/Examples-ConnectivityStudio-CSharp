@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("UALiveBindingDemo")]
-[assembly: AssemblyCopyright("© 2013-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2013-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

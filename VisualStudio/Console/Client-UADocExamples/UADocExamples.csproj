@@ -13,8 +13,8 @@
 		<OutputType>Exe</OutputType>
 		<TargetFrameworks>net472;net8.0</TargetFrameworks>
 		<Company>CODE Consulting and Development, s.r.o.</Company>
-		<AssemblyVersion>5.82.175.1</AssemblyVersion>
-		<FileVersion>5.82.175.1</FileVersion>
+		<AssemblyVersion>5.83.473.1</AssemblyVersion>
+		<FileVersion>5.83.473.1</FileVersion>
 		<Product>QuickOPC-UA</Product>
 		<RootNamespace>UADocExamples</RootNamespace>
 		<AssemblyName>UADocExamples</AssemblyName>
@@ -26,6 +26,6 @@
 		<EmbeddedResource Include="Licensing\Key-DemoOrTrial-WebForm-1999003494-20180611.bin"/>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.83.473"/>
 	</ItemGroup>
 </Project>

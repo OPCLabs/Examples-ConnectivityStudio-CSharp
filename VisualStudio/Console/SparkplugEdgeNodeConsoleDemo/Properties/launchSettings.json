@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SparkplugEdgeNodeConsoleDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "mqtt://localhost easyGroup easySparkplugDemo easyApplication"
+    }
+  }
+}

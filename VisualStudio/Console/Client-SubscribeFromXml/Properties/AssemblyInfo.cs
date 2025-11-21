@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SubscribeFromXml")]
-[assembly: AssemblyCopyright("© 2011-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2011-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

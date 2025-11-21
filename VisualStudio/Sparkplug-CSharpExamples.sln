@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{0FEAC09C-4DB7-4A17-85E5-7B9E84673462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkplugDocExamples", "Console\SparkplugDocExamples\SparkplugDocExamples.csproj", "{CB312F7B-C222-51AA-9B72-E5FC66698BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkplugApplicationConsoleDemo", "Console\SparkplugApplicationConsoleDemo\SparkplugApplicationConsoleDemo.csproj", "{06E75E58-DA36-5313-C626-97502663E514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkplugEdgeNodeConsoleDemo", "Console\SparkplugEdgeNodeConsoleDemo\SparkplugEdgeNodeConsoleDemo.csproj", "{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkplugEdgeNodeDemoLibrary", "Library\SparkplugEdgeNodeDemoLibrary\SparkplugEdgeNodeDemoLibrary.csproj", "{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB312F7B-C222-51AA-9B72-E5FC66698BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB312F7B-C222-51AA-9B72-E5FC66698BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB312F7B-C222-51AA-9B72-E5FC66698BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB312F7B-C222-51AA-9B72-E5FC66698BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E75E58-DA36-5313-C626-97502663E514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E75E58-DA36-5313-C626-97502663E514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E75E58-DA36-5313-C626-97502663E514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E75E58-DA36-5313-C626-97502663E514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB312F7B-C222-51AA-9B72-E5FC66698BF3} = {0FEAC09C-4DB7-4A17-85E5-7B9E84673462}
+		{06E75E58-DA36-5313-C626-97502663E514} = {0FEAC09C-4DB7-4A17-85E5-7B9E84673462}
+		{E12EA59D-EA1E-4C77-01A9-0417FB9ED2A5} = {0FEAC09C-4DB7-4A17-85E5-7B9E84673462}
+		{404DD7C8-B9BB-DEE1-D020-9D849B2D9EA8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DE509E1-3E15-4AD7-A407-381F80BBEED7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/opclabs3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Console\\SparkplugDocExamples\\SparkplugDocExamples.csproj
+		SccProjectTopLevelParentUniqueName1 = Sparkplug-CSharpExamples.sln
+		SccProjectName1 = Console/SparkplugDocExamples
+		SccLocalPath1 = Console\\SparkplugDocExamples
+		SccProjectUniqueName2 = Console\\SparkplugApplicationConsoleDemo\\SparkplugApplicationConsoleDemo.csproj
+		SccProjectTopLevelParentUniqueName2 = Sparkplug-CSharpExamples.sln
+		SccProjectName2 = Console/SparkplugApplicationConsoleDemo
+		SccLocalPath2 = Console\\SparkplugApplicationConsoleDemo
+		SccProjectUniqueName3 = Console\\SparkplugEdgeNodeConsoleDemo\\SparkplugEdgeNodeConsoleDemo.csproj
+		SccProjectTopLevelParentUniqueName3 = Sparkplug-CSharpExamples.sln
+		SccProjectName3 = Console/SparkplugEdgeNodeConsoleDemo
+		SccLocalPath3 = Console\\SparkplugEdgeNodeConsoleDemo
+		SccProjectUniqueName4 = Library\\SparkplugEdgeNodeDemoLibrary\\SparkplugEdgeNodeDemoLibrary.csproj
+		SccProjectTopLevelParentUniqueName4 = Sparkplug-CSharpExamples.sln
+		SccProjectName4 = Library/SparkplugEdgeNodeDemoLibrary
+		SccLocalPath4 = Library\\SparkplugEdgeNodeDemoLibrary
+	EndGlobalSection
+EndGlobal

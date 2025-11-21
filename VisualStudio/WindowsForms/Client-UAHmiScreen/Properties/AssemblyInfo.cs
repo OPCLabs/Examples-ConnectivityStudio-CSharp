@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("HmiScreen")]
-[assembly: AssemblyCopyright("© 2009-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2009-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

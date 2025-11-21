@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SparkplugApplicationConsoleDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "mqtt://localhost easyGroup easySparkplugDemo easyApplication"
+    }
+  }
+}

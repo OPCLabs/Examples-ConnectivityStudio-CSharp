@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CODE Consulting and Development, s.r.o.")]
 [assembly: AssemblyProduct("OPC Wizard")]
-[assembly: AssemblyCopyright("© 2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2024-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("OPC Labs")]
 [assembly: AssemblyCulture("")]
 

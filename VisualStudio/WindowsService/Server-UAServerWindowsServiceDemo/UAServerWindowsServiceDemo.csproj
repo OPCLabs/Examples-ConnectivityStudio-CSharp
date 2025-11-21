@@ -64,7 +64,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="OpcLabs.OpcWizard">
-			<Version>5.82.175</Version>
+			<Version>5.83.473</Version>
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>

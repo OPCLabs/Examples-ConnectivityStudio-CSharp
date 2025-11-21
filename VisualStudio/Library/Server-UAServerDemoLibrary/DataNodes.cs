@@ -7,8 +7,8 @@
 // ReSharper disable StringLiteralTypo
 #region Example
 //
-// Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
-// OPC client, server and subscriber examples in C# on GitHub: https://github.com/OPCLabs/Examples-OPCStudio-CSharp .
+// Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-ConnectivityStudio/Latest/examples.html .
+// OPC client, server and subscriber examples in C# on GitHub: https://github.com/OPCLabs/Examples-ConnectivityStudio-CSharp .
 // Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
 // a commercial license in order to use Online Forums, and we reply to every post.
 
@@ -32,35 +32,35 @@ namespace UAServerDemoLibrary
             // Create read-only data variables of various data types, without adding them to the server first. We store
             // references to them individually, because we later implement write-only variables that write to these
             // read-only variables.
-            UADataVariable booleanReadOnlyDataVariable =
+            var booleanReadOnlyDataVariable =
                 new UADataVariable("BooleanValue").Writable(false).ValueType<bool>();
-            UADataVariable byteStringReadOnlyDataVariable =
+            var byteStringReadOnlyDataVariable =
                 new UADataVariable("ByteStringValue").Writable(false).ValueType<byte[]>();
-            UADataVariable byteReadOnlyDataVariable = new UADataVariable("ByteValue").Writable(false).ValueType<byte>();
-            UADataVariable dateTimeReadOnlyDataVariable =
+            var byteReadOnlyDataVariable = new UADataVariable("ByteValue").Writable(false).ValueType<byte>();
+            var dateTimeReadOnlyDataVariable =
                 new UADataVariable("DateTimeValue").Writable(false).ValueType<DateTime>();
-            UADataVariable doubleReadOnlyDataVariable =
+            var doubleReadOnlyDataVariable =
                 new UADataVariable("DoubleValue").Writable(false).ValueType<double>();
-            UADataVariable floatReadOnlyDataVariable =
+            var floatReadOnlyDataVariable =
                 new UADataVariable("FloatValue").Writable(false).ValueType<float>();
-            UADataVariable guidReadOnlyDataVariable = new UADataVariable("GuidValue").Writable(false).ValueType<Guid>();
-            UADataVariable int16ReadOnlyDataVariable =
+            var guidReadOnlyDataVariable = new UADataVariable("GuidValue").Writable(false).ValueType<Guid>();
+            var int16ReadOnlyDataVariable =
                 new UADataVariable("Int16Value").Writable(false).ValueType<short>();
-            UADataVariable int32ReadOnlyDataVariable =
+            var int32ReadOnlyDataVariable =
                 new UADataVariable("Int32Value").Writable(false).ValueType<int>();
-            UADataVariable int64ReadOnlyDataVariable =
+            var int64ReadOnlyDataVariable =
                 new UADataVariable("Int64Value").Writable(false).ValueType<long>();
-            UADataVariable sByteReadOnlyDataVariable =
+            var sByteReadOnlyDataVariable =
                 new UADataVariable("SByteValue").Writable(false).ValueType<sbyte>();
-            UADataVariable stringReadOnlyDataVariable =
+            var stringReadOnlyDataVariable =
                 new UADataVariable("StringValue").Writable(false).ValueType<string>();
-            UADataVariable uInt16ReadOnlyDataVariable =
+            var uInt16ReadOnlyDataVariable =
                 new UADataVariable("UInt16Value").Writable(false).ValueType<ushort>();
-            UADataVariable uInt32ReadOnlyDataVariable =
+            var uInt32ReadOnlyDataVariable =
                 new UADataVariable("UInt32Value").Writable(false).ValueType<uint>();
-            UADataVariable uInt64ReadOnlyDataVariable =
+            var uInt64ReadOnlyDataVariable =
                 new UADataVariable("UInt64Value").Writable(false).ValueType<ulong>();
-            UADataVariable variantReadOnlyDataVariable =
+            var variantReadOnlyDataVariable =
                 new UADataVariable("VariantValue").Writable(false);
 
             // Create Constant sub-folder under the Data folder. It contains read-only data variables with constant values.

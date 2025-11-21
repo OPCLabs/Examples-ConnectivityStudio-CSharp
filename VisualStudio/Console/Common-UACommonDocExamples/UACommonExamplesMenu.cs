@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using OpcLabs.BaseLib.Console;
 using OpcLabs.EasyOpc.UA;
-using OpcLabs.EasyOpc.UA.ComTypes;
 using OpcLabs.EasyOpc.UA.Engine;
 
 namespace UACommonDocExamples

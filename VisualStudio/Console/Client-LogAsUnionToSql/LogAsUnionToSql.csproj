@@ -16,7 +16,7 @@
 		<RootNamespace>LogAsUnionToSql</RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.83.473"/>
 		<PackageReference Include="System.Data.SqlClient" Version="4.8.6"/>
 	</ItemGroup>
 </Project>

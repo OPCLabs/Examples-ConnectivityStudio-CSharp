@@ -10,7 +10,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.83.473"/>
 		<PackageReference Include="System.Reactive" Version="6.0.1"/>
 		<PackageReference Include="Trill" Version="2021.7.22.1"/>
 	</ItemGroup>

@@ -16,7 +16,7 @@
 		<RootNamespace>SubscribeFromXml</RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="OpcLabs.QuickOpc" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.QuickOpc" Version="5.83.473"/>
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="OpcItems.xml">

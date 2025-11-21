@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+	<PropertyGroup Label="Manual">
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net472;net8.0</TargetFrameworks>
+		<Company>CODE Consulting and Development, s.r.o.</Company>
+		<AssemblyVersion>5.83.473.1</AssemblyVersion>
+		<FileVersion>5.83.473.1</FileVersion>
+		<Product>EasySparkplug</Product>
+		<RootNamespace>SparkplugDocExamples</RootNamespace>
+		<AssemblyName>SparkplugDocExamples</AssemblyName>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Licensing\Key-DemoOrTrial-WebForm-1015004362-21250624.txt"/>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Licensing\Key-DemoOrTrial-WebForm-1015004362-21250624.txt"/>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="OpcLabs.EasySparkplug" Version="5.83.473"/>
+	</ItemGroup>
+</Project>

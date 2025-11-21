@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using OpcLabs.BaseLib.Console;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace UACommonDocExamples
 {

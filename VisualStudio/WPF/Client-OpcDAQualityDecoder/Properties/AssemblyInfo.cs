@@ -14,7 +14,7 @@ using System.Windows;
 #endif
 [assembly: AssemblyCompany("CODE Consulting and Development, s.r.o.")]
 [assembly: AssemblyProduct("QuickOPC.NET Bonus Pack")]
-[assembly: AssemblyCopyright("© 2006-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2006-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("OPC Labs")]
 [assembly: AssemblyCulture("")]
 

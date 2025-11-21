@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CODE Consulting and Development, s.r.o.")]
 [assembly: AssemblyProduct("QuickOPC-UA")]
-[assembly: AssemblyCopyright("© 2020-2024 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
+[assembly: AssemblyCopyright("© 2020-2025 CODE Consulting and Development, s.r.o., Plzen. All rights reserved.")]
 [assembly: AssemblyTrademark("OPC Labs")]
 [assembly: AssemblyCulture("")]
 

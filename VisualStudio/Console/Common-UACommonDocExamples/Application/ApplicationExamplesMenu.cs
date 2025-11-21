@@ -17,17 +17,17 @@ namespace UACommonDocExamples.Application
         {
             var actionArray = new Action[] {
                 // ReSharper disable RedundantCommaInArrayInitializer
-                UADocExamples.Application._IEasyUAClientServerApplication.AssureOwnCertificatePack.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.FindGdsRegistrations.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.GetApplicationElement.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.GetCertificateSubjectName.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.ObtainNewCertificatePack.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.ObtainNewCertificatePack.Progress,
-                UADocExamples.Application._IEasyUAClientServerApplication.RefreshTrustLists.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.RegisterToGds.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.RemoveOwnCertificatePack.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.UnregisterFromGds.Main1,
-                UADocExamples.Application._IEasyUAClientServerApplication.UpdateGdsRegistration.Main1,
+                _IEasyUAClientServerApplication.AssureOwnCertificatePack.Main1,
+                _IEasyUAClientServerApplication.FindGdsRegistrations.Main1,
+                _IEasyUAClientServerApplication.GetApplicationElement.Main1,
+                _IEasyUAClientServerApplication.GetCertificateSubjectName.Main1,
+                _IEasyUAClientServerApplication.ObtainNewCertificatePack.Main1,
+                _IEasyUAClientServerApplication.ObtainNewCertificatePack.Progress,
+                _IEasyUAClientServerApplication.RefreshTrustLists.Main1,
+                _IEasyUAClientServerApplication.RegisterToGds.Main1,
+                _IEasyUAClientServerApplication.RemoveOwnCertificatePack.Main1,
+                _IEasyUAClientServerApplication.UnregisterFromGds.Main1,
+                _IEasyUAClientServerApplication.UpdateGdsRegistration.Main1,
                 // ReSharper restore RedundantCommaInArrayInitializer
             };
 

@@ -18,7 +18,7 @@ namespace ReactiveDocExamples
                 _DAItemChangedObservable.Subscribe.Main1,
                 _DAItemChangedObservable.Subscribe.PercentDeadband,
                 _DAWriteItemValueObserver.OnNext.Main1,
-                _DAReactive.Composition.Pipeline,
+                _DAClientReactive.Composition.Pipeline,
 
                 _UADataChangeNotificationObservable.Subscribe.AbsoluteDeadband,
                 _UADataChangeNotificationObservable.Subscribe.DataChangeTrigger,
@@ -27,7 +27,7 @@ namespace ReactiveDocExamples
                 _UADataChangeNotificationObservable.Subscribe.PercentDeadband,
                 _UADataChangeNotificationObservable.Subscribe.Timeouts,
 
-                _UAReactive.Composition.Pipeline,
+                _UAClientReactive.Composition.Pipeline,
 
                 _UAWriteValueObserver.OnNext.Main1,
 

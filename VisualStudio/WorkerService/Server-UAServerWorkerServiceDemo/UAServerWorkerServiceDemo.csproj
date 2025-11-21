@@ -18,7 +18,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.3"/>
 		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.3"/>
-		<PackageReference Include="OpcLabs.OpcWizard" Version="5.82.175"/>
+		<PackageReference Include="OpcLabs.OpcWizard" Version="5.83.473"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Library\Server-UAServerDemoLibrary\UAServerDemoLibrary.csproj"/>

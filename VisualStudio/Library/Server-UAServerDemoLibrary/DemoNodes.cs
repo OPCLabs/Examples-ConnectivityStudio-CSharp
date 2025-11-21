@@ -7,8 +7,8 @@
 // ReSharper disable StringLiteralTypo
 #region Example
 //
-// Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
-// OPC client, server and subscriber examples in C# on GitHub: https://github.com/OPCLabs/Examples-OPCStudio-CSharp .
+// Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-ConnectivityStudio/Latest/examples.html .
+// OPC client, server and subscriber examples in C# on GitHub: https://github.com/OPCLabs/Examples-ConnectivityStudio-CSharp .
 // Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
 // a commercial license in order to use Online Forums, and we reply to every post.
 
@@ -70,7 +70,7 @@ namespace UAServerDemoLibrary
             demoFolder.Add(new UADataVariable("Array3D").ReadWriteValue(new int[2, 4, 3]));
 
             // A data variable of data type BaseDataType that, in fact, only accepts float values to be written into it.
-            // This is a demonstration of what how the data variable should *not* behave, because the client has no way of
+            // This is a demonstration of how the data variable should *not* behave, because the client has no way of
             // determining the data type that the server expects.
             var variantRestrictedDataVariable = new UADataVariable("VariantRestricted");
             demoFolder.Add(variantRestrictedDataVariable
